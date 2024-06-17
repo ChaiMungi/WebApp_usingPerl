@@ -1,0 +1,7 @@
+Hello <a href= "/page"> Write a new post </a>
+
+<% FOR p IN data.keys.sort %>
+  <hr>
+  <h2><% data.$p.title %></h2>
+  <% data.$p.text %>
+<%END%>
